@@ -1,0 +1,65 @@
+@media (min-width: 769px) and (max-width: 1000px), (min-device-width: 769px) and (max-device-width: 1000px){
+    body{
+        background-color: #1a1a1d;
+
+        .content{
+            width: 100%;
+            box-shadow: 0 0 0 0;
+
+            .guide{
+                .maps{
+                    justify-content: space-around;
+            
+                    .map{
+                        margin: 5px;
+                    }
+                }
+                .minimap{
+                    max-width: 700px;
+                    min-width: 700px;
+                    height: 700px;
+
+                    p{
+                        display: none;
+                    }
+
+                    .DustXboxFromT{
+                        left: 310px;
+                        top: 273px;
+                    }
+                
+                    .DustCtFromMid{
+                        left: 325px;
+                        top: 165px;
+                    }
+                
+                    .DustLongCornerFromT{
+                        left: 550px;
+                        top: 315px;
+                    }
+                
+                    .DustMidDoorsFromT{
+                        left: 280px;
+                        top: 245px;
+                    }
+                }
+            }
+            
+        }
+        footer{
+            width: 100%;
+            color: #1a1a1d;
+            background-color: #5e5e5e;
+            box-shadow: 0 0 0 0;
+            border-radius: 0;
+
+            .textFooter{
+                border-bottom: 2px solid #1a1a1d;
+            }
+        }
+
+        .navigation .list a{
+            font-size: 20px;
+        }
+    }
+}

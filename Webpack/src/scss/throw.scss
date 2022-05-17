@@ -1,0 +1,124 @@
+.content{
+    .guide{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #5e5e5e;
+        border-radius: 5px;
+
+        .maps{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+    
+            .map{
+                font-size: 1.4em;
+                font-weight: bold;
+                color: #ffffffb7;
+                width: 250px;
+                height: 150px;
+                margin: 10px;
+                padding-top: 60px;
+                border: 3px solid #fff;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+                transition: all linear .2s;
+    
+                &:hover{
+                    transform: scale(1.05);
+                    box-shadow: 3px 3px 3px 1px #1a1a1d;
+                }
+            }
+    
+            .Dust{
+                background: url(../img/de_dust2.jpg) center no-repeat;
+                background-size: cover;
+            }
+            .Mirage{
+                background: url(../img/de_mirage.jpg) center no-repeat;
+                background-size: cover;
+            }
+            .Inferno{
+                background: url(../img/de_inferno.jpg) center no-repeat;
+                background-size: cover;
+            }
+            .Nuke{
+                background: url(../img/de_nuke.jpg) center no-repeat;
+                background-size: cover;
+                color: #ff0000;
+            }
+            .Overpass{
+                background: url(../img/de_overpass.jpg) center no-repeat;
+                background-size: cover;
+                color: #ff0000;
+            }
+            .Vertigo{
+                background: url(../img/de_vertigo.jpg) center no-repeat;
+                background-size: cover;
+                color: #ff0000;
+            }
+        }
+    
+        .minimap{
+            position: relative;
+            width: 90%;
+            height: 700px;
+            margin: 10px auto;
+            border: 3px solid #fff;
+    
+            div{
+                position: absolute;
+                font-size: 30px;
+                color: #ff0000;
+                cursor: pointer;
+                user-select: none;
+    
+                &:hover{
+                    color: #630000;
+                }
+
+                p{
+                    display: none;
+                }
+            }
+        }
+        .deInferno{
+            background: url("https://www.hltv.org/img/static/stats/heatmap/de_inferno_radar_trans.png") center no-repeat;
+            background-size: contain;
+        }
+        .deDust{
+            background: url("https://www.hltv.org/img/static/stats/heatmap/de_dust2_radar_trans.png") center no-repeat;
+            background-size: contain;
+         }
+        .deMirage{
+            background: url("https://www.hltv.org/img/static/stats/heatmap/de_mirage_radar_trans.png") center no-repeat;
+            background-size: contain;
+        }
+        .deNuke{
+            background: url("https://www.hltv.org/img/static/stats/heatmap/de_nuke_radar_trans.png") center no-repeat;
+            background-size: contain;
+            color: #ff0000;
+        }
+        .deOverpass{
+            background: url("https://www.hltv.org/img/static/stats/heatmap/de_overpass_radar_trans.png") center no-repeat;
+            background-size: contain;
+            color: #ff0000;
+        }
+        .deVertigo{
+            background: url("https://www.hltv.org/img/static/stats/heatmap/de_vertigo_radar_trans.png") center no-repeat;
+            background-size: contain;
+            color: #ff0000;
+        }
+    
+        .video{
+            width: 90%;
+            margin: 10px auto;
+    
+            video{
+                width: 100%;
+                margin: 10px 0;
+                border: 3px solid #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.upd{
+    overflow: auto;
+    width: 500px;
+    padding: 0px 0 7px 0;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    background-color: #5e5e5e;
+
+    ul{
+        list-style-type: disc;
+
+        li{
+            list-style-type: none;
+        }
+    }
+}
+.Win, .Linux{
+    height: 300px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}

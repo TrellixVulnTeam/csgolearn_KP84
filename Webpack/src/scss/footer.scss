@@ -1,0 +1,40 @@
+footer{
+	font-size: 13px;
+	flex-grow: 0;
+	background-color: #1a1a1d;
+	border-radius: 10px 10px 0 0;
+	margin: auto;
+	width: 880px;
+	min-height: 80px;
+	box-shadow: 0 0 3px 1px #1a1a1d;
+	color: #5e5e5e;
+	display: flex;
+	flex-flow: row wrap;
+
+    .textFooter{
+        flex-grow: 2;
+        text-align: center;
+        padding: 10px 10px;
+        border-bottom: 1px solid #5e5e5e;
+    }
+
+    .listFooter{
+        flex-grow: 1;
+        margin: 5px 5px;
+
+        a{
+            margin: 0 10px;
+            cursor: pointer;
+            user-select: none;
+            
+            &:hover{
+                color:#fff;
+            }
+        }
+    }
+
+    .copyRight{
+        margin: 5px 15px;
+        flex-grow: 0;
+    }
+}
